@@ -1,0 +1,34 @@
+# Adonis node modules
+server/node_modules
+
+# Adonis directory for storing tmp files
+server/tmp
+
+# Adonis Environment variables, never commit this file
+server/.env
+
+# Adonis The development sqlite file
+server/database/*.sqlite
+
+client/.DS_Store
+client/node_modules
+client/dist
+
+# local env files
+client/.env.local
+client/.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
